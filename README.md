@@ -24,21 +24,21 @@ Project Steps
    - Neural Network Classifier
    - Logistic Regression
 5.	Model Fitting, Evaluation, and Testing:
-- Model Fitting: Each model was trained using the preprocessed data, which involved handling missing values, scaling features, and applying dimensionality reduction techniques.
-- Performance Evaluation: Each model’s performance was compared based on the evaluation metrics.
-- Evaluation Metrics: The metrics used to assess each model’s performance were Accuracy, Precision, Recall (Sensitivity), and F1 Score.
-- Model Comparison: The accuracy, precision, recall, and F1 scores for each model were calculated and analyzed.
-- Insights: Insights were drawn on how effectively each model detects different types of network intrusions. The analysis highlighted the strengths and weaknesses of each model in classifying normal traffic versus various attack types.
-- Neural Network Classifier: Achieved the highest accuracy and F1 score, indicating strong overall performance and a good balance between precision and recall.
-- Logistic Regression: Demonstrated robust performance, especially for linearly separable datasets, with high accuracy and a good F1 score.
-- K-Nearest Neighbors (KNN): Showed effectiveness in handling local patterns with a high F1 score, making it suitable for datasets with significant local structures.
-- Naive Bayes: Had the lowest accuracy and F1 score, reflecting limitations due to its assumption of feature independence.
-- Best Performing Model: The best-performing model was selected based on a comprehensive analysis of the evaluation metrics and tested on a separate test dataset to validate its performance. This step ensured that the model generalizes well to unseen data and effectively detects intrusions in a real-world scenario.
+   - Model Fitting: Each model was trained using the preprocessed data, which involved handling missing values, scaling features, and applying dimensionality reduction techniques.
+   - Performance Evaluation: Each model’s performance was compared based on the evaluation metrics.
+   - Evaluation Metrics: The metrics used to assess each model’s performance were Accuracy, Precision, Recall (Sensitivity), and F1 Score.
+   - Model Comparison: The accuracy, precision, recall, and F1 scores for each model were calculated and analyzed.
+   - Insights: Insights were drawn on how effectively each model detects different types of network intrusions. The analysis highlighted the strengths and weaknesses of each model in classifying normal traffic versus various attack types.
+   - Neural Network Classifier: Achieved the highest accuracy and F1 score, indicating strong overall performance and a good balance between precision and recall.
+   - Logistic Regression: Demonstrated robust performance, especially for linearly separable datasets, with high accuracy and a good F1 score.
+   - K-Nearest Neighbors (KNN): Showed effectiveness in handling local patterns with a high F1 score, making it suitable for datasets with significant local structures.
+   - Naive Bayes: Had the lowest accuracy and F1 score, reflecting limitations due to its assumption of feature independence.
+   - Best Performing Model: The best-performing model was selected based on a comprehensive analysis of the evaluation metrics and tested on a separate test dataset to validate its performance. This step ensured that the model generalizes well to unseen data and effectively detects intrusions in a real-world scenario.
 6.Conclusion and Future Work:
-- Evaluation Metrics Summary: Discussed the evaluation metrics derived from the four models and provided a summary of key findings.
-- The Neural Network and KNN models were most effective in balancing precision and recall, making them suitable for intrusion detection tasks where both false positives and false negatives are critical considerations.
-- Logistic Regression also performed well, particularly in datasets with linear separability after PCA transformation.
-- Naive Bayes, while less effective in this context, remains a valuable model for its simplicity and efficiency in other scenarios.
+  - Evaluation Metrics Summary: Discussed the evaluation metrics derived from the four models and provided a summary of key findings.
+  - The Neural Network and KNN models were most effective in balancing precision and recall, making them suitable for intrusion detection tasks where both false positives and false negatives are critical considerations.
+  - Logistic Regression also performed well, particularly in datasets with linear separability after PCA transformation.
+  - Naive Bayes, while less effective in this context, remains a valuable model for its simplicity and efficiency in other scenarios.
    
 
    
